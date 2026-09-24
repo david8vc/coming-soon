@@ -3,99 +3,41 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Coming Soon</title>
-<meta name="description" content="Something new is on the way." />
+<title>Soon</title>
 <meta name="robots" content="noindex" />
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9881;</text></svg>" />
+<link rel="icon" href="data:," />
 <style>
   :root {
     --bg: #0b0d10;
     --fg: #f4f6f8;
-    --muted: #9aa4b2;
-    --accent: #6ea8fe;
-    --line: rgba(255, 255, 255, 0.12);
   }
   @media (prefers-color-scheme: light) {
     :root {
       --bg: #fbfbfc;
       --fg: #14181d;
-      --muted: #5b6673;
-      --accent: #2563eb;
-      --line: rgba(0, 0, 0, 0.1);
     }
   }
-  * { box-sizing: border-box; }
   html, body { height: 100%; }
   body {
     margin: 0;
     background: var(--bg);
     color: var(--fg);
     font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
     display: grid;
     place-items: center;
-    padding: 2rem;
-  }
-  main {
-    max-width: 34rem;
-    text-align: center;
-  }
-  .badge {
-    display: inline-block;
-    font-size: 0.75rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--accent);
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    padding: 0.35rem 0.9rem;
-    margin-bottom: 1.75rem;
   }
   h1 {
-    font-size: clamp(2.25rem, 7vw, 3.75rem);
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-    margin: 0 0 1rem;
-  }
-  p {
-    color: var(--muted);
-    font-size: 1.05rem;
-    margin: 0 auto 2rem;
-    max-width: 28rem;
-  }
-  a.cta {
-    display: inline-block;
-    color: var(--bg);
-    background: var(--fg);
-    text-decoration: none;
-    font-weight: 600;
-    padding: 0.7rem 1.4rem;
-    border-radius: 0.6rem;
-    transition: opacity 0.15s ease;
-  }
-  a.cta:hover { opacity: 0.85; }
-  footer {
-    margin-top: 3rem;
-    font-size: 0.8rem;
-    color: var(--muted);
-    border-top: 1px solid var(--line);
-    padding-top: 1.25rem;
+    margin: 0;
+    font-size: clamp(3rem, 18vw, 12rem);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-indent: 0.08em;
+    line-height: 1;
+    user-select: none;
   }
 </style>
 </head>
 <body>
-  <main>
-    <span class="badge">Under Construction</span>
-    <h1>Something new is on the way.</h1>
-    <p>We&rsquo;re putting the finishing touches on this site. Check back soon &mdash; or get in touch in the meantime.</p>
-    <a class="cta" href="mailto:david@lonsdaleenterprises.com">Get in touch</a>
-    <footer>
-      <span id="host"></span> &middot; &copy; <span id="year"></span> Lonsdale Enterprises
-    </footer>
-  </main>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-    document.getElementById('host').textContent = location.hostname || 'localhost';
-  </script>
+  <h1>SOON</h1>
 </body>
 </html>
